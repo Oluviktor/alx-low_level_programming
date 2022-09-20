@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev - prints a stri followed by a new line..
- * @s: the strin to print.
- * Return: void
- * done by Marcus Ifeanyi
+ *  print_rev - prints a string followed by a new line..
+ *
+ *  @s: the string to print.
+ *  Return: void
  */
-void  print_rev(char *s)
+void print_rev(char *s)
 {
 	int num = 0;
 
@@ -16,7 +16,8 @@ void  print_rev(char *s)
 	}
 	while (num--)
 	{
-		-putchar(s[num]);
+		_putchar(s[num]);
 	}
-	-putchar('\n');
+	_putchar('\n');
+
 }
