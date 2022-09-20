@@ -2,7 +2,6 @@
 
 /**
  * print_rev - prints a stri followed by a new line..
- *
  * @s: the strin to print.
  * Return: void
  * done by Marcus Ifeanyi
