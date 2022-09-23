@@ -12,15 +12,13 @@ int main(void)
 
 {
 
-char i;
+char a;
 
+for (a = 'a'; a <= 'z'; a++)
+putchar(a);
 
-
-for (i = 'a'; i <= 'z'; i++)
-
-{
-
-putchar(i);
+for (a = 'A'; a <= 'Z'; a++)   
+putchar(a);
 
 }
 
