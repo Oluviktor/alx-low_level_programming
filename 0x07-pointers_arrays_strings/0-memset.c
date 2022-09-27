@@ -7,7 +7,6 @@
 *@n: the number of bytes to be used
 *Return: Pointer to the memory area to be fill
 */
-
 char *_memset(char *s, char b, unsigned int n);
 {
 unsigned int i;
