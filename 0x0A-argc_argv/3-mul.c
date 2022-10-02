@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints the multiplication of two integers
@@ -10,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int a, b;
+
 	if (argc == 3)
 
 	{
