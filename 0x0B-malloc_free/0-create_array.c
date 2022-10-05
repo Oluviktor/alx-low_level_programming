@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  *main - create array of chars and initializes it
