@@ -1,13 +1,25 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include "function_pointers.h"
+#include <unistd.h>
+
+
+
 /**
-*print_name - print the name
-*@name: name to print
-*@f: function to use
-*/
-void print_name(char *name, void (*f)(char *))
+
+ * _putchar - writes the character c to stdout
+
+ * @c: The character to print
+
+ *
+
+ * Return: On success 1.
+
+ * On error, -1 is returned, and errno is set appropriately.
+
+ */
+
+int _putchar(char c)
+
 {
-if (name != NULL && f != NULL)
-f(name);
+
+	return (write(1, &c, 1));
+
 }
